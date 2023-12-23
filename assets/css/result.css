@@ -1,0 +1,19 @@
+.result{
+    background-color: lightgray;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.display{
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.display div{
+    max-width: 800px;
+    word-wrap: break-word;
+    margin-right: 5px;
+}
