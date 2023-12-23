@@ -1,0 +1,10 @@
+<link rel="stylesheet" href="css/login.css">
+
+<div class="login-window">
+    <form action="/api/url/shorten/<%= id%>" method="post">
+        <label for="originalUrl">Original URL:</label>
+        <input type="text" id="originalUrl" name="originalUrl" required>
+    
+        <button type="submit">Shorten URL</button>
+      </form>
+    </div>

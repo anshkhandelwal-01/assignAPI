@@ -1,0 +1,13 @@
+<link rel="stylesheet" href="css/login.css">
+
+<div class="login-window">
+<h1>Sign In</h1>
+<form action="/api/auth/login" method="post">
+    <label for="loginUsername">Username:</label>
+    <input type="text" id="loginUsername" name="username" required>
+
+    <label for="loginPassword">Password:</label>
+    <input type="password" id="loginPassword" name="password" required>
+    <button type="submit">Login</button>
+  </form>
+</div>
